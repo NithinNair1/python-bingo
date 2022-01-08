@@ -7,3 +7,8 @@
 
 ## 100 Days of Code
   - Day 1
+
+## Images of Output
+
+  - ![img1](bingoImg1.png "Bingo Output 1")
+  - ![img2](bingoImg2.png "Bingo Output 2")
