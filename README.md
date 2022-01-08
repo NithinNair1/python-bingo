@@ -10,5 +10,5 @@
 
 ## Images of Output
 
-  - ![img1](bingoImg1.png "Bingo Output 1")
-  - ![img2](bingoImg2.png "Bingo Output 2")
+![img1](bingoImg1.png "Bingo Output 1")
+![img2](bingoImg2.png "Bingo Output 2")
