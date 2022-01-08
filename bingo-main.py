@@ -14,8 +14,8 @@ def genCard():
       pList.append(pElement)  
 
 genCard()
-print("\nComputer's Card",cList,len(cList))
-print("Your Card",pList,len(pList))
+print("\nComputer's Card: ",*cList,sep=" ")
+print("Your Card: ",*pList,sep=" ")
 
 def compCalls():
   while len(cList)!=0 and len(pList)!=0:
@@ -23,7 +23,7 @@ def compCalls():
     if calledNum in cList and calledNum in pList:
       print("––––––––––––––––––––––––––––––––––––––––––––––––")
 
-      print("\n",calledNum,"was present in both Computer's Bingo as well as yours")
+      print("\n"+str(calledNum)+" was present in both Computer's Bingo as well as yours")
       cList.remove(calledNum)
       pList.remove(calledNum)
       print("Computer's Card: ",*cList,sep=" ")
