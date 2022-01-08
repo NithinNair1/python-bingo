@@ -47,8 +47,6 @@ def compCalls():
   
 
 compCalls()
-print("CLIST",cList)
-print("PLIST",pList)
 
 def winner(cList,pList):
   if len(cList)==0 and len(pList)==0:
